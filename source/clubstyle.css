@@ -1,0 +1,27 @@
+th {
+    padding: 1%;
+}
+
+td {
+    padding: .6%;
+}
+
+.contact {
+    background-image: var(--contactbg);
+    background-color: var(--worldmap);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.contact ul
+{
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+}
+.h2
+{
+    font-family: "open san";
+    color: #676A6C!important;
+}

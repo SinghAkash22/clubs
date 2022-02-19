@@ -1,0 +1,90 @@
+body
+{
+    height: 100vh;
+    width: 100vw;
+
+    background-position: center;
+    background-size: cover;
+
+}
+form
+{
+
+    background-color: rgb(0 0 0 / 52%);
+
+    border-radius: 4%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: pink;
+    /*opacity: 1; !* Firefox *!*/
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: pink;
+}
+.form-group
+{
+    margin: 1.5rem;
+}
+
+  .main{
+       height: 100vh;
+       width: 100vw;
+
+  }
+
+  h2{
+
+    width: 40%;
+    height: 100%;
+    background:linear-gradient(to right, #7721c7,#9ac8e3);
+      font-family: "Ubuntu Condensed";
+    border-radius: 30px;
+    transition: .5s;
+  }
+
+#register
+{
+    background-color: #f8f9fa;
+
+}
+.form-group
+{
+
+}
+   .form-control ,.maxl{
+       /*background-color: #f8f9fa;*/
+      /*width: 100%;*/
+       background-color: white;
+       border-radius: .75rem;
+       border: 1px solid #ced4da;
+      padding: 3%;
+      /* width: 88%;*/
+       /*margin-right: 6%;*/
+       /*margin-bottom: 11%;*/
+       /*margin-left: 10%;*/
+      /*border-left: 0;*/
+      /*border-right: 0;*/
+      /*border-top: 0;*/
+      /*border: 2px solid white;*/
+      /*outline: none;*/
+  }
+  .submit-btn{
+      /*width: 85%;*/
+      padding: 1% 1%;
+      cursor: pointer;
+      display: block;
+      margin: auto;
+      background: linear-gradient(to right, #7721c7,#9ac8e3);
+      border: 0;
+      outline: none;
+      border-radius:30px ;
+  }

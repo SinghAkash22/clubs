@@ -1,0 +1,464 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#navbarNav, ul {
+    margin-left: auto;
+    margin-right: 5%;
+
+    /*background-color: black;*/
+
+}
+
+.moto-img {
+    margin-bottom: 3%;
+}
+
+.moto {
+    margin: auto;
+}
+
+.navbar {
+    z-index: 1;
+
+    position: fixed;
+    /*background-color: red;*/
+    width: 100%;
+    /*top: 2%;*/
+}
+
+
+#particles-js {
+    background-color: #1c1e1e;
+    height: 48vh;
+
+}
+
+@font-face {
+    font-family: 'Agenc';
+    src: url(../font/AGENCYR.ttf);
+}
+
+@font-face {
+    font-family: 'open san';
+    src: url(../font/OpenSans-Bold.ttf);
+}
+
+#log
+
+@font-face {
+    font-family: 'open san light';
+    src: url(../font/OpenSans-Light.ttf);
+}
+
+#logo {
+    position: absolute;
+    top: 16%;
+
+}
+
+
+#logotext1 {
+    font-size: 6.4rem;
+    word-spacing: -17px;
+    line-height: 90px;
+    color: #d3d4d4;
+    font-family: "Agenc";
+    /*font-display: swap;*/
+    font-style: normal;
+    font-weight: bold;
+}
+
+#logotext2 {
+
+    color: #d3d4d4;
+    font-family: "Agenc";
+    font-size: 1.5rem;
+    /*width: 10%;*/
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+ .social-icon a {
+    background-color: #8c4d79;
+    color: #fff;
+    padding: 2px 6px;
+    height: 28px;
+    width: 28px;
+    display: block;
+    border-radius: 50px;
+}
+
+.about {
+    font-size: 30px;
+    color: #676A6C;
+    font-family: "open san light";
+
+}
+
+.aba {
+    margin-bottom: -0.4%;
+}
+
+h4 {
+    text-align: center;
+    font-family: "open san light";
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #676A6C;
+    line-height: 1.1;
+}
+
+.navy {
+    color: #8c4d79;
+}
+
+p {
+    color: #676A6C;
+}
+
+/*span.navy*/
+/*{*/
+/*    font-size: 17px;*/
+
+/*}*/
+#clubs {
+    padding-top: 2%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+/ / remove the gap so it doesn 't close
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.dropdown-item:hover {
+    background-color: darkblue;
+}
+
+.left1 {
+    opacity: 0;
+    /*animation: zoomIn; !* referring directly to the animation's @keyframe declaration *!*/
+    /*animation-duration: 2s; !* don't forget to set a duration! *!*/
+}
+
+.left1.animate__animated {
+    opacity: 1;
+    --animate-duration: 1s;
+}
+
+.left2 {
+    opacity: 0;
+    /*animation: zoomIn; !* referring directly to the animation's @keyframe declaration *!*/
+    /*animation-duration: 2s; !* don't forget to set a duration! *!*/
+}
+
+.left2.animate__animated {
+    opacity: 1;
+    --animate-duration: 1s;
+}
+
+.left3 {
+    opacity: 0;
+    /*animation: zoomIn; !* referring directly to the animation's @keyframe declaration *!*/
+    /*animation-duration: 2s; !* don't forget to set a duration! *!*/
+}
+
+.left3.animate__animated {
+    opacity: 1;
+    --animate-duration: 1s;
+}
+
+.right1 {
+    opacity: 0;
+    /*animation: zoomIn; !* referring directly to the animation's @keyframe declaration *!*/
+    /*animation-duration: 2s; !* don't forget to set a duration! *!*/
+}
+
+.right1.animate__animated {
+    opacity: 1;
+    --animate-duration: 1s;
+}
+
+.right2 {
+    opacity: 0;
+    /*animation: zoomIn; !* referring directly to the animation's @keyframe declaration *!*/
+    /*animation-duration: 2s; !* don't forget to set a duration! *!*/
+}
+
+.right2.animate__animated {
+    opacity: 1;
+    --animate-duration: 1s;
+}
+
+.right3 {
+    opacity: 0;
+    /*animation: zoomIn; !* referring directly to the animation's @keyframe declaration *!*/
+    /*animation-duration: 2s; !* don't forget to set a duration! *!*/
+}
+
+.right3.animate__animated {
+    opacity: 1;
+    --animate-duration: 1s;
+}
+
+.right4 {
+    opacity: 0;
+    /*animation: zoomIn; !* referring directly to the animation's @keyframe declaration *!*/
+    /*animation-duration: 2s; !* don't forget to set a duration! *!*/
+}
+
+.right4.animate__animated {
+    opacity: 1;
+    --animate-duration: 1s;
+}
+
+.left4 {
+    opacity: 0;
+    /*animation: zoomIn; !* referring directly to the animation's @keyframe declaration *!*/
+    /*animation-duration: 2s; !* don't forget to set a duration! *!*/
+}
+
+.left4.animate__animated {
+    opacity: 1;
+    --animate-duration: 1s;
+}
+
+.zom {
+    opacity: 0;
+    /*animation: zoomIn; !* referring directly to the animation's @keyframe declaration *!*/
+    /*animation-duration: 2s; !* don't forget to set a duration! *!*/
+}
+
+.zom.animate__animated {
+    opacity: 1;
+}
+
+/*for  model form*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    /*padding-top: 60px;*/
+}
+
+/* Modal Content/Box */
+.modal-content {
+    border: 3px solid green;
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    /*position: absolute;*/
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+
+}
+
+.form-control {
+    border-radius: 0.75rem;
+}
+
+.for {
+    /*height: 80%;*/
+    /*width: 80%;*/
+    background-color: #f8f9fa;
+    text-align: center;
+    /*margin-bottom: 80px;*/
+    margin: 11% auto 15% auto;
+    /*margin-top: 10%;*/
+
+}
+
+#dropdownMenuButton1 {
+    color: white;
+}
+
+.cust_form {
+    margin-top: -10px;
+    /*margin-left: 91px;*/
+}
+
+#fev-img {
+    position: absolute;
+    /*width: 25%;*/
+    margin-left: -102px;
+    margin-top: -29px;
+}
+
+.for_row {
+    margin-top: 20px;
+}
+
+.form-control {
+    width: 70%;
+}
+
+
+.user {
+    /*margin-left: 40%;*/
+    /*font-family: Ubuntu;*/
+    /*font-weight: bold;*/
+    color: white;
+    /*font-size:em ;*/
+}
+
+.nav-item {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.mainnav {
+    padding-left: 7%;
+    padding-right: 10%;
+}
+
+.nav-white {
+
+    position: relative;
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+    color: white;
+}
+
+.nav-li {
+    margin-top: 15%;
+}
+
+.nav-white:after {
+    content: "";
+    position: absolute;
+    background-color: blue;
+    height: 10px;
+    left: -12%;
+    width: 0%;
+    top: -200%;
+    /*transition: 0.3s;*/
+}
+
+
+.nav-white:hover:after {
+    background-color: blue;
+    width: 120%;
+}
+
+.active .nav-li .nav-white:after {
+    content: "";
+    position: absolute;
+    background-color: rebeccapurple;
+    height: 10px;
+    left: -12%;
+    width: 120%;
+    top: -200%;
+    /*transition: 0.3s;*/
+}
+
+
+.scroling {
+    background-color: white;
+    border-bottom: 1px solid #6c757d;
+}
+
+.scroling .navbar-nav .nav-li .nav-white {
+    color: #6c757d;
+}
+
+.nav-white:hover {
+    color: #8c4d79;
+}
+
+.n-whi:hover {
+    color: #8c4d79;
+}
+
+.scroling .navbar-nav .whi-li #dropdownMenuButton1 {
+    color: #6c757d;
+}
+
+.white {
+    color: white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nav-white {
+    /*margin-left: 2%;*/
+    /*margin-right: 2%;*/
+    /*padding: 2%;*/
+
+    font-family: 'open san';
+    font-size: 16px;
+}
+
+
+/*.scroling*/
+/*{*/
+/*    background-color: white;*/
+
+/*}

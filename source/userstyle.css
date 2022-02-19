@@ -1,0 +1,47 @@
+.head
+{
+    background-color: #f4f4f4;
+    border-bottom:1px solid #30363d;
+}
+.img
+{
+    /*background-color: white;*/
+    /*border-radius: 100%;*/
+    /*padding: 4%;*/
+   margin-top: 14%;
+    margin-bottom: 8%;
+   /* width: 70%;*/
+}
+.userin
+{
+    height: 100vh;
+    background-color: #f4f4f4;
+    border-right:1px solid #30363d;
+}
+.info
+{
+    padding-top:3%;
+    height: 100vh;
+    background-color: white;
+}
+.clubifn
+{
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    padding: 6%;
+    border:1px solid #30363d;
+}
+.clbox
+{
+    margin-top: 5%;
+}
+.clubcol
+{
+    /*padding: 4%;*/
+    padding-left: 4%;
+    padding-right: 33%;
+}
+h4,h3
+{
+    color: #8c4d79;
+}
