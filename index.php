@@ -168,11 +168,11 @@ session_start();
          style="margin-top: 0px">
         <!--					<img id="fev-img" src="source/plane%20(2).png" height="270px" width="170px" alt="plane">-->
 
-        <a class="navbar-brand" style="font-family: 'ubuntu-Bold',sans-serif;font-size: 2em" href="#">CSJMU</a>
+        <a class="navbar-brand" style="font-family: 'ubuntu-Bold',sans-serif;font-size: 1.5em;background-color: purple;border-radius: .5rem;padding: .2%" href="#">CSJMU</a>
         <button style="color: black!important;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" style="color: purple"></span>
+            <span class="navbar-toggler-icon" style="color: purple;background-color: purple"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
 
@@ -258,19 +258,19 @@ session_start();
                                 class="navy">Club of Csjm University,</span>
                         Kanpur</h4>
                     <ul class="list-inline social-icon" style="margin:auto">
-                        <li style="padding: .6%"><a title="Github" href="https://github.com/COPS-IITBHU"
+                        <li style="padding: .6%"><a title="Github" href=""
                                                     target="blank"><i class="fa fa-github"></i></a></li>
-                        <li style="padding: .6%"><a title="Facebook" href="https://www.facebook.com/cops.iitbhu"
+                        <li style="padding: .6%"><a title="Facebook" href="https://facebook.com/csjmuknp"
                                                     target="blank"><i class="fa fa-facebook"></i></a></li>
                         <li style="padding: .6%"><a title="Linkedin"
-                                                    href="https://www.linkedin.com/company/cops-iitbhu"
+                                                    href=""
                                                     target="blank"><i class="fa fa-linkedin"></i></a></li>
                         <li style="padding: .6%"><a title="Google Group"
-                                                    href="https://groups.google.com/forum/#!forum/copsiitbhu"
+                                                    href=""
                                                     target="blank"><i class="fa fa-google"></i></a></li>
-                        <li style="padding: .6%"><a title="Mail" href="mailto:iitbhu.cops@gmail.com"><i
+                        <li style="padding: .6%"><a title="Mail" href=""><i
                                         class="fa fa-envelope-o"></i></a></li>
-                        <li><a title="RSS Feed" href="/feed.xml" target="blank"><i class="fa fa-rss"></i></a></li>
+                        <li><a title="RSS Feed" href="http://csjmu.ac.in/geotagging/colleges-geotagging.php" target="blank"><i class="fa fa-rss"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -303,7 +303,7 @@ session_start();
             <div class="col-md-6 text-center left1">
                 <div class="team-member" style="padding: 5%"><img src="images/cultural.png"
                                                                   class="img-responsive img-circle img-small"
-                                                                  width="200" alt=""> <h4><a href="cultural1.html"
+                                                                  width="200" alt=""> <h4><a href="Cultural.php"
                                                                                              target="_blank"><span
                                     class="navy">Cultural Club</span></a></h4>
                     <p><span data-i18n="projects.google">Art is not What you see,it is what you make others
@@ -324,7 +324,7 @@ session_start();
             <div class="col-md-6 text-center right1">
                 <div class="team-member" style="padding: 5%"><img src="images/fitness.jpg"
                                                                   class="img-responsive img-circle img-small"
-                                                                  width="200" alt=""> <h4><a href="fitness1.html"
+                                                                  width="200" alt=""> <h4><a href="Fitness.php"
                                                                                              target="_blank"><span
                                     class="navy">Fitness Club</span></a></h4>
                     <p><span data-i18n="projects.google">Yoga and Meditation helps in
@@ -348,7 +348,7 @@ session_start();
             <div class="col-md-6 text-center left2">
                 <div class="team-member" style="padding: 5%"><img src="images/gardening.png"
                                                                   class="img-responsive img-circle img-small"
-                                                                  width="200" alt=""> <h4><a href="gaurdening1.html"
+                                                                  width="200" alt=""> <h4><a href="Gardening.php"
                                                                                              target="_blank"><span
                                     class="navy">gardening Club</span></a></h4>
                     <p><span data-i18n="projects.google">This Gardening club has been initiated with a vision to
@@ -365,7 +365,7 @@ session_start();
             <div class="col-md-6 text-center right2">
                 <div class="team-member" style="padding: 5%"><img src="images/photography.png"
                                                                   class="img-responsive img-circle img-small"
-                                                                  width="200" alt=""> <h4><a href="photography1.html"
+                                                                  width="200" alt=""> <h4><a href="Photography.php"
                                                                                              target="_blank"><span
                                     class="navy">Photography Club</span></a></h4>
                     <p><span data-i18n="projects.google">PhotoGraphy Club s open to all students
@@ -384,7 +384,7 @@ session_start();
             <div class="col-md-6 text-center left3">
                 <div class="team-member" style="padding: 5%"><img src="images/literary.png"
                                                                   class="img-responsive img-circle img-small"
-                                                                  width="200" alt=""> <h4><a href="litreryclub1.html"
+                                                                  width="200" alt=""> <h4><a href="Literary.php"
                                                                                              target="_blank"><span
                                     class="navy">Literary Club</span></a></h4>
                     <p><span data-i18n="projects.google">This club envisages conducive platform to explore
@@ -403,7 +403,7 @@ session_start();
             <div class="col-md-6 text-center right3">
                 <div class="team-member" style="padding: 5%"><img src="images/robotic.png"
                                                                   class="img-responsive img-circle img-small"
-                                                                  width="200" alt=""> <h4><a href="robotics1.html"
+                                                                  width="200" alt=""> <h4><a href="Robotics%20and%20Drone.php"
                                                                                              target="_blank"><span
                                     class="navy">Robotics And Drone Club</span></a></h4>
                     <p><span data-i18n="projects.google">Robotics is the branch of technology that deals with the
@@ -423,7 +423,7 @@ session_start();
             <div class="col-md-6 text-center left4">
                 <div class="team-member" style="padding: 5%"><img src="images/cooking.png"
                                                                   class="img-responsive img-circle img-small"
-                                                                  width="200" alt=""> <h4><a href="cookingclub1.html"
+                                                                  width="200" alt=""> <h4><a href="Cooking.php"
                                                                                              target="_blank"><span
                                     class="navy">Cooking Club</span></a></h4>
                     <p><span data-i18n="projects.google">While discussing the problems that came up with the
@@ -439,7 +439,7 @@ session_start();
             <div class="col-md-6 text-center right4">
                 <div class="team-member" style="padding: 5%"><img src="images/code.png"
                                                                   class="img-responsive img-circle img-small"
-                                                                  width="200" alt=""> <h4><a href="codingclub1.html"
+                                                                  width="200" alt=""> <h4><a href="Coding.php"
                                                                                              target="_blank"><span
                                     class="navy">Coding Club</span></a></h4>
                     <p><span data-i18n="projects.google">This Club "EVOLUTION: UIET CODING CLUB"
@@ -470,7 +470,7 @@ if(isset($_GET['code']))
     }
 }
 
-
+include 'footr.php';
 ?>
 
 </body>

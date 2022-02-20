@@ -285,9 +285,12 @@
         </div>
     </div>
 </section>
-<?php
-include './source/footer.html';
-?>
+
+
 <script src="source/timeline.js"></script>
+
+<?php
+include 'footr.php';
+?>
 </body>
 </html>
